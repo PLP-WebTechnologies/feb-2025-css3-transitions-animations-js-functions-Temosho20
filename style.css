@@ -1,0 +1,25 @@
+#animate-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+#animation-btn:hover {
+  background-color: #3e8e41
+}
+#animate-btn-animate {
+  animation: pulse 1s;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
